@@ -24,6 +24,7 @@
 		D0F122862BBF006E005154DA /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227D2BBF006E005154DA /* Pretendard-Medium.otf */; };
 		D0F122872BBF006E005154DA /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227E2BBF006E005154DA /* Pretendard-ExtraLight.otf */; };
 		D0F122882BBF006E005154DA /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227F2BBF006E005154DA /* Pretendard-Thin.otf */; };
+		D0F1228B2BBF04C6005154DA /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F1228A2BBF04C6005154DA /* UITextField+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		D0F1227D2BBF006E005154DA /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		D0F1227E2BBF006E005154DA /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
 		D0F1227F2BBF006E005154DA /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		D0F1228A2BBF04C6005154DA /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				D0F1225B2BBEFB7D005154DA /* AppDelegate.swift */,
 				D0F1225D2BBEFB7D005154DA /* SceneDelegate.swift */,
 				D0F1225F2BBEFB7D005154DA /* ViewController.swift */,
+				D0F122892BBF04A2005154DA /* Extensions */,
 				D0F122762BBF0056005154DA /* Fonts */,
 				D0F122642BBEFB7F005154DA /* Assets.xcassets */,
 				D0F122612BBEFB7D005154DA /* Main.storyboard */,
@@ -114,6 +117,14 @@
 				D0F1227F2BBF006E005154DA /* Pretendard-Thin.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D0F122892BBF04A2005154DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0F1228A2BBF04C6005154DA /* UITextField+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				D0F122712BBEFC98005154DA /* LoginViewController.swift in Sources */,
 				D0F122732BBEFCA8005154DA /* WelcomeViewController.swift in Sources */,
 				D0F122602BBEFB7D005154DA /* ViewController.swift in Sources */,
+				D0F1228B2BBF04C6005154DA /* UITextField+.swift in Sources */,
 				D0F1225C2BBEFB7D005154DA /* AppDelegate.swift in Sources */,
 				D0F1225E2BBEFB7D005154DA /* SceneDelegate.swift in Sources */,
 			);
