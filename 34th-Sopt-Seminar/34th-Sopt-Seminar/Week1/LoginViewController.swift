@@ -26,6 +26,12 @@ class LoginViewController: UIViewController {
         textField.placeholder = "아이디를 입력해주세요."
         textField.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
         textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        //모서리 곡률 추가
+        textField.layer.cornerRadius = 3
+        //텍스트 내용 전체 삭제 버튼
+        textField.clearButtonMode = .always
+        //입력란 왼쪽에 여백 추가
+        textField.addPadding(left: 15)
         
         return textField
     }()
@@ -35,6 +41,12 @@ class LoginViewController: UIViewController {
         textField.placeholder = "비밀번호를 입력해주세요"
         textField.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
         textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        //모서리 곡률 추가
+        textField.layer.cornerRadius = 3
+        //텍스트 내용 전체 삭제 버튼
+        textField.clearButtonMode = .always
+        //입력란 왼쪽에 여백 추가
+        textField.addPadding(left: 15)
         
         return textField
     }()
@@ -46,6 +58,8 @@ class LoginViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
         button.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
+        //모서리 곡률 추가
+        button.layer.cornerRadius = 6
         
         return button
     }()
