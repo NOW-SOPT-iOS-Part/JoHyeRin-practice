@@ -112,10 +112,8 @@ class WelcomeViewController: UIViewController {
     }
     
     private func bindID(){
-        if let idText = id {
-            self.welcomeLabel.text = "\(idText)님 \n반가워요!"
-        } else {
-            self.welcomeLabel.text = "아이디가 없습니다."
+        if let id {
+            self.welcomeLabel.text = "\(id)님 \n반가워요!"
         }
     }
 }
