@@ -13,6 +13,8 @@
 		D0F122632BBEFB7D005154DA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0F122622BBEFB7D005154DA /* Base */; };
 		D0F122652BBEFB7F005154DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F122642BBEFB7F005154DA /* Assets.xcassets */; };
 		D0F122682BBEFB7F005154DA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0F122672BBEFB7F005154DA /* Base */; };
+		D0F122712BBEFC98005154DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F122702BBEFC98005154DA /* LoginViewController.swift */; };
+		D0F122732BBEFCA8005154DA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F122722BBEFCA8005154DA /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D0F122642BBEFB7F005154DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0F122672BBEFB7F005154DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0F122692BBEFB7F005154DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F122702BBEFC98005154DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D0F122722BBEFCA8005154DA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,18 @@
 				D0F122642BBEFB7F005154DA /* Assets.xcassets */,
 				D0F122662BBEFB7F005154DA /* LaunchScreen.storyboard */,
 				D0F122692BBEFB7F005154DA /* Info.plist */,
+				D0F1226F2BBEFC77005154DA /* Week1 */,
 			);
 			path = "34th-Sopt-Seminar";
+			sourceTree = "<group>";
+		};
+		D0F1226F2BBEFC77005154DA /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0F122702BBEFC98005154DA /* LoginViewController.swift */,
+				D0F122722BBEFCA8005154DA /* WelcomeViewController.swift */,
+			);
+			path = Week1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F122712BBEFC98005154DA /* LoginViewController.swift in Sources */,
+				D0F122732BBEFCA8005154DA /* WelcomeViewController.swift in Sources */,
 				D0F122602BBEFB7D005154DA /* ViewController.swift in Sources */,
 				D0F1225C2BBEFB7D005154DA /* AppDelegate.swift in Sources */,
 				D0F1225E2BBEFB7D005154DA /* SceneDelegate.swift in Sources */,
