@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0A544442BC1146D00E7F102 /* LoginViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A544432BC1146D00E7F102 /* LoginViewController_DelegatePattern.swift */; };
+		D0A544462BC1147800E7F102 /* WelcomeViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A544452BC1147800E7F102 /* WelcomeViewController_DelegatePattern.swift */; };
+		D0A544482BC11B2200E7F102 /* LoginViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A544472BC11B2200E7F102 /* LoginViewController_Closure.swift */; };
+		D0A5444A2BC11B5200E7F102 /* WelcomeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A544492BC11B5200E7F102 /* WelcomeViewController_Closure.swift */; };
+		D0A5444D2BC127E000E7F102 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0A5444C2BC127E000E7F102 /* SnapKit */; };
+		D0A5444F2BC127E000E7F102 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D0A5444E2BC127E000E7F102 /* SnapKit-Dynamic */; };
+		D0A544512BC131C500E7F102 /* ScrollViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A544502BC131C500E7F102 /* ScrollViewPractice.swift */; };
+		D0A544532BC1B50D00E7F102 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A544522BC1B50D00E7F102 /* UIView+.swift */; };
 		D0F1225C2BBEFB7D005154DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F1225B2BBEFB7D005154DA /* AppDelegate.swift */; };
 		D0F1225E2BBEFB7D005154DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F1225D2BBEFB7D005154DA /* SceneDelegate.swift */; };
 		D0F122602BBEFB7D005154DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F1225F2BBEFB7D005154DA /* ViewController.swift */; };
@@ -28,6 +36,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0A544432BC1146D00E7F102 /* LoginViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_DelegatePattern.swift; sourceTree = "<group>"; };
+		D0A544452BC1147800E7F102 /* WelcomeViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_DelegatePattern.swift; sourceTree = "<group>"; };
+		D0A544472BC11B2200E7F102 /* LoginViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Closure.swift; sourceTree = "<group>"; };
+		D0A544492BC11B5200E7F102 /* WelcomeViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_Closure.swift; sourceTree = "<group>"; };
+		D0A544502BC131C500E7F102 /* ScrollViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPractice.swift; sourceTree = "<group>"; };
+		D0A544522BC1B50D00E7F102 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		D0F122582BBEFB7D005154DA /* 34th-Sopt-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "34th-Sopt-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F1225B2BBEFB7D005154DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F1225D2BBEFB7D005154DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,12 +69,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A5444D2BC127E000E7F102 /* SnapKit in Frameworks */,
+				D0A5444F2BC127E000E7F102 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0A544422BC1144000E7F102 /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0A544432BC1146D00E7F102 /* LoginViewController_DelegatePattern.swift */,
+				D0A544452BC1147800E7F102 /* WelcomeViewController_DelegatePattern.swift */,
+				D0A544472BC11B2200E7F102 /* LoginViewController_Closure.swift */,
+				D0A544492BC11B5200E7F102 /* WelcomeViewController_Closure.swift */,
+				D0A544502BC131C500E7F102 /* ScrollViewPractice.swift */,
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
 		D0F1224F2BBEFB7D005154DA = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +118,7 @@
 				D0F122662BBEFB7F005154DA /* LaunchScreen.storyboard */,
 				D0F122692BBEFB7F005154DA /* Info.plist */,
 				D0F1226F2BBEFC77005154DA /* Week1 */,
+				D0A544422BC1144000E7F102 /* Week2 */,
 			);
 			path = "34th-Sopt-Seminar";
 			sourceTree = "<group>";
@@ -123,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				D0F1228A2BBF04C6005154DA /* UITextField+.swift */,
+				D0A544522BC1B50D00E7F102 /* UIView+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -143,6 +173,10 @@
 			dependencies = (
 			);
 			name = "34th-Sopt-Seminar";
+			packageProductDependencies = (
+				D0A5444C2BC127E000E7F102 /* SnapKit */,
+				D0A5444E2BC127E000E7F102 /* SnapKit-Dynamic */,
+			);
 			productName = "34th-Sopt-Seminar";
 			productReference = D0F122582BBEFB7D005154DA /* 34th-Sopt-Seminar.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +205,9 @@
 				Base,
 			);
 			mainGroup = D0F1224F2BBEFB7D005154DA;
+			packageReferences = (
+				D0A5444B2BC127E000E7F102 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D0F122592BBEFB7D005154DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -207,11 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A544532BC1B50D00E7F102 /* UIView+.swift in Sources */,
 				D0F122712BBEFC98005154DA /* LoginViewController.swift in Sources */,
+				D0A544462BC1147800E7F102 /* WelcomeViewController_DelegatePattern.swift in Sources */,
 				D0F122732BBEFCA8005154DA /* WelcomeViewController.swift in Sources */,
+				D0A5444A2BC11B5200E7F102 /* WelcomeViewController_Closure.swift in Sources */,
 				D0F122602BBEFB7D005154DA /* ViewController.swift in Sources */,
+				D0A544482BC11B2200E7F102 /* LoginViewController_Closure.swift in Sources */,
 				D0F1228B2BBF04C6005154DA /* UITextField+.swift in Sources */,
 				D0F1225C2BBEFB7D005154DA /* AppDelegate.swift in Sources */,
+				D0A544512BC131C500E7F102 /* ScrollViewPractice.swift in Sources */,
+				D0A544442BC1146D00E7F102 /* LoginViewController_DelegatePattern.swift in Sources */,
 				D0F1225E2BBEFB7D005154DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +478,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0A5444B2BC127E000E7F102 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0A5444C2BC127E000E7F102 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0A5444B2BC127E000E7F102 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D0A5444E2BC127E000E7F102 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0A5444B2BC127E000E7F102 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0F122502BBEFB7D005154DA /* Project object */;
 }
