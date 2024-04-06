@@ -13,6 +13,18 @@
 		D0F122632BBEFB7D005154DA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0F122622BBEFB7D005154DA /* Base */; };
 		D0F122652BBEFB7F005154DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F122642BBEFB7F005154DA /* Assets.xcassets */; };
 		D0F122682BBEFB7F005154DA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0F122672BBEFB7F005154DA /* Base */; };
+		D0F122712BBEFC98005154DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F122702BBEFC98005154DA /* LoginViewController.swift */; };
+		D0F122732BBEFCA8005154DA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F122722BBEFCA8005154DA /* WelcomeViewController.swift */; };
+		D0F122802BBF006E005154DA /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F122772BBF006D005154DA /* Pretendard-Regular.otf */; };
+		D0F122812BBF006E005154DA /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F122782BBF006E005154DA /* Pretendard-ExtraBold.otf */; };
+		D0F122822BBF006E005154DA /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F122792BBF006E005154DA /* Pretendard-Bold.otf */; };
+		D0F122832BBF006E005154DA /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227A2BBF006E005154DA /* Pretendard-SemiBold.otf */; };
+		D0F122842BBF006E005154DA /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227B2BBF006E005154DA /* Pretendard-Black.otf */; };
+		D0F122852BBF006E005154DA /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227C2BBF006E005154DA /* Pretendard-Light.otf */; };
+		D0F122862BBF006E005154DA /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227D2BBF006E005154DA /* Pretendard-Medium.otf */; };
+		D0F122872BBF006E005154DA /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227E2BBF006E005154DA /* Pretendard-ExtraLight.otf */; };
+		D0F122882BBF006E005154DA /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0F1227F2BBF006E005154DA /* Pretendard-Thin.otf */; };
+		D0F1228B2BBF04C6005154DA /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F1228A2BBF04C6005154DA /* UITextField+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		D0F122642BBEFB7F005154DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0F122672BBEFB7F005154DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0F122692BBEFB7F005154DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F122702BBEFC98005154DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D0F122722BBEFCA8005154DA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D0F122772BBF006D005154DA /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		D0F122782BBF006E005154DA /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		D0F122792BBF006E005154DA /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		D0F1227A2BBF006E005154DA /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		D0F1227B2BBF006E005154DA /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		D0F1227C2BBF006E005154DA /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		D0F1227D2BBF006E005154DA /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		D0F1227E2BBF006E005154DA /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		D0F1227F2BBF006E005154DA /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		D0F1228A2BBF04C6005154DA /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +83,48 @@
 				D0F1225B2BBEFB7D005154DA /* AppDelegate.swift */,
 				D0F1225D2BBEFB7D005154DA /* SceneDelegate.swift */,
 				D0F1225F2BBEFB7D005154DA /* ViewController.swift */,
-				D0F122612BBEFB7D005154DA /* Main.storyboard */,
+				D0F122892BBF04A2005154DA /* Extensions */,
+				D0F122762BBF0056005154DA /* Fonts */,
 				D0F122642BBEFB7F005154DA /* Assets.xcassets */,
+				D0F122612BBEFB7D005154DA /* Main.storyboard */,
 				D0F122662BBEFB7F005154DA /* LaunchScreen.storyboard */,
 				D0F122692BBEFB7F005154DA /* Info.plist */,
+				D0F1226F2BBEFC77005154DA /* Week1 */,
 			);
 			path = "34th-Sopt-Seminar";
+			sourceTree = "<group>";
+		};
+		D0F1226F2BBEFC77005154DA /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0F122702BBEFC98005154DA /* LoginViewController.swift */,
+				D0F122722BBEFCA8005154DA /* WelcomeViewController.swift */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		D0F122762BBF0056005154DA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0F1227B2BBF006E005154DA /* Pretendard-Black.otf */,
+				D0F122792BBF006E005154DA /* Pretendard-Bold.otf */,
+				D0F122782BBF006E005154DA /* Pretendard-ExtraBold.otf */,
+				D0F1227E2BBF006E005154DA /* Pretendard-ExtraLight.otf */,
+				D0F1227C2BBF006E005154DA /* Pretendard-Light.otf */,
+				D0F1227D2BBF006E005154DA /* Pretendard-Medium.otf */,
+				D0F122772BBF006D005154DA /* Pretendard-Regular.otf */,
+				D0F1227A2BBF006E005154DA /* Pretendard-SemiBold.otf */,
+				D0F1227F2BBF006E005154DA /* Pretendard-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D0F122892BBF04A2005154DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0F1228A2BBF04C6005154DA /* UITextField+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +186,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F122652BBEFB7F005154DA /* Assets.xcassets in Resources */,
+				D0F122862BBF006E005154DA /* Pretendard-Medium.otf in Resources */,
+				D0F122822BBF006E005154DA /* Pretendard-Bold.otf in Resources */,
+				D0F122882BBF006E005154DA /* Pretendard-Thin.otf in Resources */,
+				D0F122832BBF006E005154DA /* Pretendard-SemiBold.otf in Resources */,
+				D0F122802BBF006E005154DA /* Pretendard-Regular.otf in Resources */,
+				D0F122812BBF006E005154DA /* Pretendard-ExtraBold.otf in Resources */,
 				D0F122682BBEFB7F005154DA /* Base in Resources */,
+				D0F122842BBF006E005154DA /* Pretendard-Black.otf in Resources */,
 				D0F122632BBEFB7D005154DA /* Base in Resources */,
+				D0F122852BBF006E005154DA /* Pretendard-Light.otf in Resources */,
+				D0F122872BBF006E005154DA /* Pretendard-ExtraLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F122712BBEFC98005154DA /* LoginViewController.swift in Sources */,
+				D0F122732BBEFCA8005154DA /* WelcomeViewController.swift in Sources */,
 				D0F122602BBEFB7D005154DA /* ViewController.swift in Sources */,
+				D0F1228B2BBF04C6005154DA /* UITextField+.swift in Sources */,
 				D0F1225C2BBEFB7D005154DA /* AppDelegate.swift in Sources */,
 				D0F1225E2BBEFB7D005154DA /* SceneDelegate.swift in Sources */,
 			);
