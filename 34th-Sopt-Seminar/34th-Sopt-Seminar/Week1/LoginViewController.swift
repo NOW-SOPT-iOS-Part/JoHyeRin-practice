@@ -5,7 +5,6 @@
 //  Created by 조혜린 on 3/30/24.
 //
 
-import Foundation
 import UIKit
 
 class LoginViewController: UIViewController {
@@ -71,9 +70,10 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
-        [titleLabel, idTextField, passwordTextField, loginButton].forEach {
-            self.view.addSubview($0)
-        }
+        self.view.addSubviews(titleLabel,
+                              idTextField,
+                              passwordTextField,
+                              loginButton)
     }
     
     @objc func loginButtonTapped() {

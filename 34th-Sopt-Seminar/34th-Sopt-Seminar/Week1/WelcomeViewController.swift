@@ -5,7 +5,6 @@
 //  Created by 조혜린 on 3/30/24.
 //
 
-import Foundation
 import UIKit
 
 class WelcomeViewController: UIViewController {
@@ -91,9 +90,13 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
-        [welcomeImage, welcomeLabel, temperatureLabel, temperatureSlider, temperatureValueLabel, goMainButton, backToLoginButton].forEach {
-            self.view.addSubview($0)
-        }
+        self.view.addSubviews(welcomeImage,
+                              welcomeLabel,
+                              temperatureLabel,
+                              temperatureSlider,
+                              temperatureValueLabel,
+                              goMainButton,
+                              backToLoginButton)
         
         bindID()
     }
