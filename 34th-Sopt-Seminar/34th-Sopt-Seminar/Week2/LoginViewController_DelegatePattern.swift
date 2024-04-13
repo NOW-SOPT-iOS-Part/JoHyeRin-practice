@@ -1,13 +1,13 @@
 //
-//  LoginViewController.swift
+//  FirstViewController_DelegatePattern.swift
 //  34th-Sopt-Seminar
 //
-//  Created by 조혜린 on 3/30/24.
+//  Created by 조혜린 on 4/6/24.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController_DelegatePattern: UIViewController {
     
     private let titleLabel: UILabel = {
         let label = UILabel(frame: CGRect(x: 69, y: 161, width: 236, height: 44))
@@ -95,15 +95,25 @@ class LoginViewController: UIViewController {
        }
     
     private func presentToWelcomeVC() {
-        let welcomeViewController = WelcomeViewController()
+        let welcomeViewController = WelcomeViewController_DelegatePattern()
+        welcomeViewController.delegate = self
         welcomeViewController.modalPresentationStyle = .formSheet
         welcomeViewController.id = idTextField.text
         self.present(welcomeViewController, animated: true)
     }
     
     private func pushToWelcomeVC() {
-        let welcomeViewController = WelcomeViewController()
+        let welcomeViewController = WelcomeViewController_DelegatePattern()
+        welcomeViewController.delegate = self
         welcomeViewController.id = idTextField.text
         self.navigationController?.pushViewController(welcomeViewController, animated: true)
+    }
+}
+
+extension LoginViewController_DelegatePattern: DataBindProtocol {
+    func dataBind(id: String?) {
+        if let id {
+            idTextField.text = "\(id)에서 어떤걸로 할거얌?"
+        }
     }
 }

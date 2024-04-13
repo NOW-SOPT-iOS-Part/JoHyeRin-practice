@@ -1,24 +1,29 @@
 //
-//  WelcomeViewController.swift
+//  WelcomeViewController_Closure.swift
 //  34th-Sopt-Seminar
 //
-//  Created by 조혜린 on 3/30/24.
+//  Created by 조혜린 on 4/6/24.
 //
 
 import UIKit
+import SnapKit
 
-class WelcomeViewController: UIViewController {
+class WelcomeViewController_Closure: UIViewController {
+    
+    typealias handler = ((String?) -> (Void))
+
+    var completionHandler: handler?
     var id: String?
     
     private let welcomeImage: UIImageView = {
-        let imageView = UIImageView(frame: CGRect(x: 112, y: 87, width: 150, height: 150))
+        let imageView = UIImageView()
         imageView.image = UIImage(named: "welcomeImage")
         
         return imageView
     }()
     
     private let welcomeLabel: UILabel = {
-        let label = UILabel(frame: CGRect(x: 140, y: 260, width: 95, height: 60))
+        let label = UILabel()
         label.textColor = .black
         label.textAlignment = .center
         label.numberOfLines = 2
@@ -28,7 +33,7 @@ class WelcomeViewController: UIViewController {
     }()
     
     private let temperatureLabel: UILabel = {
-        let label = UILabel(frame: CGRect(x: 75, y: 350, width: 236, height: 44))
+        let label = UILabel()
         label.text = "당근 온도를 설정해보세요!"
         label.textColor = .black
         label.font = UIFont(name: "Pretendard-Bold", size: 18)
@@ -38,7 +43,7 @@ class WelcomeViewController: UIViewController {
     }()
     
     private lazy var temperatureSlider: UISlider = {
-        let slider = UISlider(frame: CGRect(x: 20, y: 400, width: 335, height: 30))
+        let slider = UISlider()
         slider.minimumTrackTintColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         //최소 value 설정
         slider.minimumValue = 0
@@ -52,7 +57,7 @@ class WelcomeViewController: UIViewController {
     }()
     
     private let temperatureValueLabel: UILabel = {
-        let label = UILabel(frame: CGRect(x: 75, y: 425, width: 236, height: 44))
+        let label = UILabel()
         label.text = "🥕50%🥕"
         label.textColor = .black
         label.font = UIFont(name: "Pretendard-SemiBold", size: 14)
@@ -62,7 +67,7 @@ class WelcomeViewController: UIViewController {
     }()
     
     private lazy var goMainButton: UIButton = {
-        let button = UIButton(frame: CGRect(x: 20, y: 486, width: 335, height: 58))
+        let button = UIButton()
         button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         button.setTitle("메인으로", for: .normal)
         button.setTitleColor(.white, for: .normal)
@@ -74,7 +79,7 @@ class WelcomeViewController: UIViewController {
     }()
     
     private lazy var backToLoginButton: UIButton = {
-        let button = UIButton(frame: CGRect(x: 20, y: 558, width: 335, height: 58))
+        let button = UIButton()
         button.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
         button.setTitle("다시 로그인", for: .normal)
         button.setTitleColor(UIColor(red: 172/255, green: 176/255, blue: 185/255, alpha: 1), for: .normal)
@@ -88,7 +93,11 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupLayout()
+        bindID()
+    }
+    
+    private func setupLayout() {
         self.view.backgroundColor = .white
         self.view.addSubviews(welcomeImage,
                               welcomeLabel,
@@ -98,10 +107,50 @@ class WelcomeViewController: UIViewController {
                               goMainButton,
                               backToLoginButton)
         
-        bindID()
+        welcomeImage.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.top.equalToSuperview().inset(87)
+            $0.height.width.equalTo(150)
+        }
+        
+        welcomeLabel.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.top.equalTo(welcomeImage.snp.bottom).offset(30)
+        }
+        
+        temperatureLabel.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.top.equalTo(welcomeLabel.snp.bottom).offset(30)
+        }
+        
+        temperatureSlider.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.top.equalTo(temperatureLabel.snp.bottom).offset(30)
+            $0.leading.trailing.equalToSuperview().inset(20)
+        }
+        
+        temperatureValueLabel.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.top.equalTo(temperatureSlider.snp.bottom).offset(30)
+        }
+        
+        goMainButton.snp.makeConstraints {
+            $0.top.equalTo(temperatureValueLabel.snp.bottom).offset(30)
+            $0.leading.trailing.equalToSuperview().inset(20)
+            $0.centerX.equalToSuperview()
+            $0.height.equalTo(58)
+        }
+        
+        backToLoginButton.snp.makeConstraints {
+            $0.top.equalTo(goMainButton.snp.bottom).offset(10)
+            $0.leading.trailing.equalToSuperview().inset(20)
+            $0.centerX.equalToSuperview()
+            $0.height.equalTo(58)
+        }
     }
     
     @objc func backToLoginButtonTapped() {
+        completionHandler?(id)
         if self.navigationController == nil {
             self.dismiss(animated: true)
         } else {

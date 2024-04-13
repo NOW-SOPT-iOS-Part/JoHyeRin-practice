@@ -1,13 +1,19 @@
 //
-//  WelcomeViewController.swift
+//  WelcomeViewController_DelegatePattern.swift
 //  34th-Sopt-Seminar
 //
-//  Created by 조혜린 on 3/30/24.
+//  Created by 조혜린 on 4/6/24.
 //
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+protocol DataBindProtocol: AnyObject {
+    func dataBind(id: String?)
+}
+
+class WelcomeViewController_DelegatePattern: UIViewController {
+    
+    weak var delegate: DataBindProtocol?
     var id: String?
     
     private let welcomeImage: UIImageView = {
@@ -102,6 +108,10 @@ class WelcomeViewController: UIViewController {
     }
     
     @objc func backToLoginButtonTapped() {
+        if let id {
+            delegate?.dataBind(id: id)
+        }
+        
         if self.navigationController == nil {
             self.dismiss(animated: true)
         } else {
