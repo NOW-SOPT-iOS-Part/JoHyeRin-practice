@@ -53,11 +53,19 @@ class ScrollViewPractice: UIViewController {
         return view
     }()
     
-    private let scrollView = UIScrollView()
+    private let scrollView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.contentInsetAdjustmentBehavior = .never
+        
+        return scrollView
+    }()
+    
     private var contentView = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.setNavigationBarHidden(true, animated: true)
         setupLayout()
     }
     
