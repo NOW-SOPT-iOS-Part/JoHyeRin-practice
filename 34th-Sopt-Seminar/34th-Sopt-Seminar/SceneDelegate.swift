@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         self.window = UIWindow(windowScene: windowScene)
         
-        let viewController = ScrollViewPractice()
+        let viewController = ItemViewController()
 
         let navigationController = UINavigationController(rootViewController: viewController)
         self.window?.rootViewController = navigationController
