@@ -14,6 +14,18 @@
 		D03585972BD3A66400FA3DD4 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03585962BD3A66400FA3DD4 /* ItemViewController.swift */; };
 		D03585992BD3A67900FA3DD4 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03585982BD3A67900FA3DD4 /* ItemCollectionViewCell.swift */; };
 		D035859B2BD3AC8200FA3DD4 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D035859A2BD3AC8200FA3DD4 /* ItemModel.swift */; };
+		D03905EA2BDCC7E9001E1B41 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D03905E92BDCC7E9001E1B41 /* Then */; };
+		D03905ED2BDCC8D3001E1B41 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D03905EC2BDCC8D3001E1B41 /* Moya */; };
+		D03905EF2BDCCB64001E1B41 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03905EE2BDCCB64001E1B41 /* Config.swift */; };
+		D03905F62BDCCE08001E1B41 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03905F52BDCCE08001E1B41 /* NetworkResult.swift */; };
+		D03905F82BDCCE38001E1B41 /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03905F72BDCCE38001E1B41 /* MoyaLoggingPlugin.swift */; };
+		D03905FA2BDCCE85001E1B41 /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03905F92BDCCE85001E1B41 /* SignUpRequestModel.swift */; };
+		D03905FC2BDCCE8E001E1B41 /* SignUpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03905FB2BDCCE8E001E1B41 /* SignUpResponseModel.swift */; };
+		D03906012BDCCED7001E1B41 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03906002BDCCED7001E1B41 /* SignUpViewController.swift */; };
+		D03906032BDCCEEE001E1B41 /* UserTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03906022BDCCEEE001E1B41 /* UserTargetType.swift */; };
+		D03906052BDCCEF8001E1B41 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03906042BDCCEF8001E1B41 /* UserService.swift */; };
+		D03906072BDCCF04001E1B41 /* CheckUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03906062BDCCF04001E1B41 /* CheckUserInfoViewController.swift */; };
+		D03906092BDCCF0E001E1B41 /* UserInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03906082BDCCF0E001E1B41 /* UserInfoResponseModel.swift */; };
 		D082537C2BD388830034662C /* LoginViewController_SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082537B2BD388830034662C /* LoginViewController_SnapKit.swift */; };
 		D082537E2BD388A00034662C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082537D2BD388A00034662C /* LoginView.swift */; };
 		D08253812BD38A630034662C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D08253802BD38A630034662C /* SnapKit */; };
@@ -51,6 +63,16 @@
 		D03585962BD3A66400FA3DD4 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		D03585982BD3A67900FA3DD4 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		D035859A2BD3AC8200FA3DD4 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		D03905EE2BDCCB64001E1B41 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D03905F52BDCCE08001E1B41 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		D03905F72BDCCE38001E1B41 /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
+		D03905F92BDCCE85001E1B41 /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
+		D03905FB2BDCCE8E001E1B41 /* SignUpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponseModel.swift; sourceTree = "<group>"; };
+		D03906002BDCCED7001E1B41 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D03906022BDCCEEE001E1B41 /* UserTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTargetType.swift; sourceTree = "<group>"; };
+		D03906042BDCCEF8001E1B41 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		D03906062BDCCF04001E1B41 /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
+		D03906082BDCCF0E001E1B41 /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
 		D082537B2BD388830034662C /* LoginViewController_SnapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_SnapKit.swift; sourceTree = "<group>"; };
 		D082537D2BD388A00034662C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D0A544432BC1146D00E7F102 /* LoginViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_DelegatePattern.swift; sourceTree = "<group>"; };
@@ -87,6 +109,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08253812BD38A630034662C /* SnapKit in Frameworks */,
+				D03905EA2BDCC7E9001E1B41 /* Then in Frameworks */,
+				D03905ED2BDCC8D3001E1B41 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +135,95 @@
 				D035859A2BD3AC8200FA3DD4 /* ItemModel.swift */,
 			);
 			name = CollectionViewPractice;
+			sourceTree = "<group>";
+		};
+		D03905E72BDCB869001E1B41 /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				D03905FD2BDCCE9C001E1B41 /* Model */,
+				D03905FE2BDCCEA2001E1B41 /* View */,
+				D03905FF2BDCCEA6001E1B41 /* ViewController */,
+			);
+			path = Week4;
+			sourceTree = "<group>";
+		};
+		D03905F02BDCCBB3001E1B41 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D0F1225B2BBEFB7D005154DA /* AppDelegate.swift */,
+				D0F1225D2BBEFB7D005154DA /* SceneDelegate.swift */,
+				D03905EE2BDCCB64001E1B41 /* Config.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D03905F12BDCCBC9001E1B41 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				D0F122892BBF04A2005154DA /* Extensions */,
+				D03905F22BDCCBEF001E1B41 /* Resources */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		D03905F22BDCCBEF001E1B41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0F122762BBF0056005154DA /* Fonts */,
+				D0F122642BBEFB7F005154DA /* Assets.xcassets */,
+				D0F122612BBEFB7D005154DA /* Main.storyboard */,
+				D0F122662BBEFB7F005154DA /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D03905F32BDCCC12001E1B41 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D0F1225F2BBEFB7D005154DA /* ViewController.swift */,
+				D0F1226F2BBEFC77005154DA /* Week1 */,
+				D0A544422BC1144000E7F102 /* Week2 */,
+				D082537A2BD384230034662C /* Week3 */,
+				D03905E72BDCB869001E1B41 /* Week4 */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		D03905F42BDCCDE9001E1B41 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D03905F72BDCCE38001E1B41 /* MoyaLoggingPlugin.swift */,
+				D03905F52BDCCE08001E1B41 /* NetworkResult.swift */,
+				D03906022BDCCEEE001E1B41 /* UserTargetType.swift */,
+				D03906042BDCCEF8001E1B41 /* UserService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D03905FD2BDCCE9C001E1B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D03905F92BDCCE85001E1B41 /* SignUpRequestModel.swift */,
+				D03905FB2BDCCE8E001E1B41 /* SignUpResponseModel.swift */,
+				D03906082BDCCF0E001E1B41 /* UserInfoResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D03905FE2BDCCEA2001E1B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D03905FF2BDCCEA6001E1B41 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D03906002BDCCED7001E1B41 /* SignUpViewController.swift */,
+				D03906062BDCCF04001E1B41 /* CheckUserInfoViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		D082537A2BD384230034662C /* Week3 */ = {
@@ -155,18 +268,11 @@
 		D0F1225A2BBEFB7D005154DA /* 34th-Sopt-Seminar */ = {
 			isa = PBXGroup;
 			children = (
-				D0F1225B2BBEFB7D005154DA /* AppDelegate.swift */,
-				D0F1225D2BBEFB7D005154DA /* SceneDelegate.swift */,
-				D0F1225F2BBEFB7D005154DA /* ViewController.swift */,
-				D0F122892BBF04A2005154DA /* Extensions */,
-				D0F122762BBF0056005154DA /* Fonts */,
-				D0F122642BBEFB7F005154DA /* Assets.xcassets */,
-				D0F122612BBEFB7D005154DA /* Main.storyboard */,
-				D0F122662BBEFB7F005154DA /* LaunchScreen.storyboard */,
+				D03905F02BDCCBB3001E1B41 /* Application */,
+				D03905F42BDCCDE9001E1B41 /* Network */,
+				D03905F12BDCCBC9001E1B41 /* Global */,
+				D03905F32BDCCC12001E1B41 /* Screen */,
 				D0F122692BBEFB7F005154DA /* Info.plist */,
-				D0F1226F2BBEFC77005154DA /* Week1 */,
-				D0A544422BC1144000E7F102 /* Week2 */,
-				D082537A2BD384230034662C /* Week3 */,
 			);
 			path = "34th-Sopt-Seminar";
 			sourceTree = "<group>";
@@ -224,6 +330,8 @@
 			name = "34th-Sopt-Seminar";
 			packageProductDependencies = (
 				D08253802BD38A630034662C /* SnapKit */,
+				D03905E92BDCC7E9001E1B41 /* Then */,
+				D03905EC2BDCC8D3001E1B41 /* Moya */,
 			);
 			productName = "34th-Sopt-Seminar";
 			productReference = D0F122582BBEFB7D005154DA /* 34th-Sopt-Seminar.app */;
@@ -255,6 +363,8 @@
 			mainGroup = D0F1224F2BBEFB7D005154DA;
 			packageReferences = (
 				D082537F2BD38A630034662C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D03905E82BDCC7E9001E1B41 /* XCRemoteSwiftPackageReference "Then" */,
+				D03905EB2BDCC8D3001E1B41 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = D0F122592BBEFB7D005154DA /* Products */;
 			projectDirPath = "";
@@ -298,21 +408,31 @@
 				D082537C2BD388830034662C /* LoginViewController_SnapKit.swift in Sources */,
 				D0A544462BC1147800E7F102 /* WelcomeViewController_DelegatePattern.swift in Sources */,
 				D0F122732BBEFCA8005154DA /* WelcomeViewController.swift in Sources */,
+				D03906012BDCCED7001E1B41 /* SignUpViewController.swift in Sources */,
 				D035858B2BD38E6800FA3DD4 /* ChatTableViewCell.swift in Sources */,
+				D03906092BDCCF0E001E1B41 /* UserInfoResponseModel.swift in Sources */,
 				D03585942BD39C0100FA3DD4 /* ChatModel.swift in Sources */,
+				D03905F82BDCCE38001E1B41 /* MoyaLoggingPlugin.swift in Sources */,
+				D03905F62BDCCE08001E1B41 /* NetworkResult.swift in Sources */,
 				D0A5444A2BC11B5200E7F102 /* WelcomeViewController_Closure.swift in Sources */,
 				D03585972BD3A66400FA3DD4 /* ItemViewController.swift in Sources */,
 				D0F122602BBEFB7D005154DA /* ViewController.swift in Sources */,
 				D0A544482BC11B2200E7F102 /* LoginViewController_Closure.swift in Sources */,
 				D035859B2BD3AC8200FA3DD4 /* ItemModel.swift in Sources */,
+				D03906052BDCCEF8001E1B41 /* UserService.swift in Sources */,
 				D03585992BD3A67900FA3DD4 /* ItemCollectionViewCell.swift in Sources */,
 				D082537E2BD388A00034662C /* LoginView.swift in Sources */,
+				D03905EF2BDCCB64001E1B41 /* Config.swift in Sources */,
+				D03906032BDCCEEE001E1B41 /* UserTargetType.swift in Sources */,
 				D0F1228B2BBF04C6005154DA /* UITextField+.swift in Sources */,
 				D0F1225C2BBEFB7D005154DA /* AppDelegate.swift in Sources */,
+				D03905FC2BDCCE8E001E1B41 /* SignUpResponseModel.swift in Sources */,
 				D0A544512BC131C500E7F102 /* ScrollViewPractice.swift in Sources */,
 				D0A544442BC1146D00E7F102 /* LoginViewController_DelegatePattern.swift in Sources */,
+				D03906072BDCCF04001E1B41 /* CheckUserInfoViewController.swift in Sources */,
 				D03585892BD38D4400FA3DD4 /* ChatViewController.swift in Sources */,
 				D0F1225E2BBEFB7D005154DA /* SceneDelegate.swift in Sources */,
+				D03905FA2BDCCE85001E1B41 /* SignUpRequestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +582,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://34.64.233.12:8080";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X395BM5WW7;
@@ -490,6 +611,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://34.64.233.12:8080";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X395BM5WW7;
@@ -537,6 +659,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D03905E82BDCC7E9001E1B41 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		D03905EB2BDCC8D3001E1B41 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
 		D082537F2BD38A630034662C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -548,6 +686,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D03905E92BDCC7E9001E1B41 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D03905E82BDCC7E9001E1B41 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		D03905EC2BDCC8D3001E1B41 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D03905EB2BDCC8D3001E1B41 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
 		D08253802BD38A630034662C /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D082537F2BD38A630034662C /* XCRemoteSwiftPackageReference "SnapKit" */;
