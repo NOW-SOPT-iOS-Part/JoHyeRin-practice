@@ -19,18 +19,24 @@ final class LoginViewController_SnapKit: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
+        setupAddTarget()
+    }
+    
+    private func setupAddTarget() {
+        rootView.loginButton.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
     }
     
     
-//    @objc
-//    private func loginButtonDidTap() {
-//        pushToWelcomeVC()
-//    }
-//    
-//    private func pushToWelcomeVC() {
-//        let welcomeViewController = WelcomeViewController()
-//        welcomeViewController.id = idTextField.text
-//        self.navigationController?.pushViewController(welcomeViewController, animated: true)
-//    }
+    @objc
+    private func loginButtonDidTap() {
+        print("loginButtonDidTap")
+        pushToWelcomeVC()
+    }
+    
+    private func pushToWelcomeVC() {
+        let welcomeViewController = WelcomeViewController()
+        welcomeViewController.id = rootView.idTextField.text
+        self.navigationController?.pushViewController(welcomeViewController, animated: true)
+    }
 }
 
